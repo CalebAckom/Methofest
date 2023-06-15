@@ -98,26 +98,32 @@ class App extends Component {
                     endpoint: "WEJtDtcYB4zAfcMH8"
                 },
                 {
-                    name: "Goaso",
+                    name: "Foso",
                     id: "15",
+                    email: "clementina.dubuque@mail.com",
+                    endpoint: "TcxdTCBJ614G7mwM9"
+                },
+                {
+                    name: "Goaso",
+                    id: "16",
                     email: "clementina.dubuque@mail.com",
                     endpoint: "NCPEq3LtqUsPC7dy7"
                 },
                 {
                     name: "Ho",
-                    id: "16",
+                    id: "17",
                     email: "clementina.dubuque@mail.com",
                     endpoint: "5dKY2WBm9L3buWLVA"
                 },
                 {
                     name: "Sefwi Bekwai",
-                    id: "17",
+                    id: "18",
                     email: "clementina.dubuque@mail.com",
                     endpoint: "Y8men6HkmQFYDdyf6"
                 },
                 {
                     name: "Wenchi",
-                    id: "18",
+                    id: "19",
                     email: "clementina.dubuque@mail.com",
                     endpoint: "vPheiChQTLxn7jvA6"
                 }
@@ -165,7 +171,7 @@ class App extends Component {
                             </div>
                             <div className='boom'>
                                 <p className='dir'>A Digital Directional Road Guide to Akyem Oda Methodist Cathedral</p>
-                                <button onClick={this.handleScroll}>Click me</button>
+                                <button onClick={this.handleScroll}>View Dioceses</button>
                             </div>
                         </div>
                     </div>
