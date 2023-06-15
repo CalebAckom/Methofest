@@ -150,7 +150,7 @@ class App extends Component {
         return (
             <div className="App">
                 <div style={{ height: '100vh', width: '100%', backgroundColor: '#ddd', display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ background: '#170380', flex: 1 }} >
+                    <div style={{ background: '#170380', flex: 1, padding: '50px 0' }} >
                         <div>
                             <img src={logo} alt="" style={{ width: 80 }} />
                         </div>
