@@ -1,0 +1,176 @@
+.landing-hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-layer {
+    background: #170380;
+    flex: 1;
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.landing-title-text {
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+}
+
+.landing-directions-text {
+    font-size: 3rem;
+}
+
+
+.landing-directions-text {
+    font-size: 3rem;
+
+}
+
+.landing-directions-text:before {
+    content: "";
+    display: block;
+    background-color: #f0cdad;
+    height: 0px;
+    width: 50%;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border: 2px solid transparent;
+    margin: auto;
+}
+
+.landing-directions-text::after {
+    content: "";
+    display: block;
+    background-color: #f0cdad;
+    height: 0px;
+    width: 50%;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border: 2px solid transparent;
+    margin: auto;
+}
+
+.landing-footer-text {
+    font-size: 3rem;
+}
+
+.lower-layer {
+    background: #fff;
+    flex: 1;
+    width: 100%;
+}
+
+.overlay {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    background: #fff;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.overlay-image {
+    position: absolute;
+    top: -20%;
+    background: transparent;
+    object-fit: contain;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay-image img {
+    box-shadow: 1px 1px 10px #ccc;
+    width: 70%;
+    height: auto;
+}
+
+.overlay-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overlay-footer p {
+    color: #170380;
+    font-size: 1.4rem;
+    padding: 0 30px;
+}
+
+.overlay-footer button {
+    padding: 12px 20px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.overlay-footer button:hover {
+    background-color: rgb(203, 230, 255);
+    color: dodgerblue;
+
+}
+
+@media (max-width: 768px) {
+    .landing-title-text {
+        font-size: 1.4rem;
+    }
+
+    .landing-directions-text {
+        font-size: 2.2rem;
+    }
+
+    .landing-footer-text {
+        font-size: 2.5rem;
+    }
+
+    .overlay-image img {
+        width: 80%;
+    }
+
+    .overlay-footer p {
+        color: #170380;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing-title-text {
+        font-size: 1.2rem;
+    }
+
+    .landing-directions-text {
+        font-size: 1.2rem;
+    }
+
+    .landing-footer-text {
+        font-size: 2rem;
+    }
+
+    .overlay-image img {
+        width: 80%;
+    }
+
+    .overlay-footer p {
+        color: #170380;
+        font-size: 1.2rem;
+    }
+}

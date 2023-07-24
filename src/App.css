@@ -1,100 +1,39 @@
 .App {
     text-align: center;
+    width: 100% !important;
+    height: auto;
+    background: linear-gradient(to left,
+            rgba(7, 27, 82, 1) 0%,
+            rgba(0, 128, 128, 1) 100%);
 }
 
 h1 {
-    /*font-family: "Bigelow Rules", cursive;*/
-    font-size: 72px;
+    font-size: 2.5rem;
     color: #0ccac4;
 }
 
-
-.texter {
-    font-family: sans-serif;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    font-size: 1.6rem;
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
-.directions {
-    font-size: 3rem;
-
-}
-
-.directions:before {
-    content: "";
-    display: block;
-    background-color: #f0cdad;
-    height: 0px;
-    width: 25%;
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
-    border: 2px solid transparent;
-    margin: auto;
-}
-
-.directions::after {
-    content: "";
-    display: block;
-    background-color: #f0cdad;
-    height: 0px;
-    width: 25%;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
-    border: 2px solid transparent;
-    margin: auto;
-}
-
-.overlay {
+#scroll {
+    height: auto;
     width: 100%;
-    position: absolute;
-    top: -30%;
-    transform: translate(-50%, -0%);
-    left: 50%;
-    right: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 50px 0;
 }
 
-.img-wrapper {
-    box-shadow: 1px 1px 10px #ccc;
-    background: #fff;
+@media (max-width: 1024px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.overlay img {
-    object-fit: contain;
-}
-
-.dir {
-    color: #170380;
-    font-size: 1.4rem;
-}
-
-.boom {
-    width: 100%;
-}
-
-.boom button{
-    padding: 12px 20px;
-    background-color: dodgerblue;
-    border: 1px solid dodgerblue;
-    font-size: 1rem;
-    border-radius: 8px;
-    color: white;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.boom button:hover{
-    background-color: rgb(203, 230, 255);
-    color: dodgerblue;
-
-}
-
-#scroll{
-    height: 100vh;
-    width: 100%;
+@media (max-width: 500px) {
+    .card-list {
+        grid-template-columns: 1fr;
+    }
 }
