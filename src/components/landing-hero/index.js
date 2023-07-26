@@ -28,7 +28,7 @@ const LandingHero = () => {
                         <img src={mocker} alt="" />
                     </div>
                     <div className='overlay-footer'>
-                        <p>A Digital Directional Road Guide to Akyem Oda Methodist Cathedral</p>
+                        <p>A Digital Directional Guide to Akyem Oda Methodist Cathedral</p>
                         <button onClick={handleScroll}>View Dioceses</button>
                     </div>
                 </div>
