@@ -19,7 +19,7 @@ const LandingHero = () => {
                 <div>
                     <h1 className='landing-title-text'>THE METHODIST CHURCH GHANA</h1>
                     <h1 className='landing-directions-text'>CONNEXIONAL METHOFEST 2023</h1>
-                    <h1 className='landing-footer-text'>DIRECTIONS TO AYEM ODA</h1>
+                    <h1 className='landing-footer-text'>DIRECTIONS TO AKYEM ODA</h1>
                 </div>
             </div>
             <div className='lower-layer'>
