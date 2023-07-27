@@ -32,7 +32,7 @@ export const dioceses = [
     {
         name: "Koforidua",
         id: "6",
-        video: "jvo6uoumqktnav86mhxn.mp4",
+        video: "pi1wxt3fvkmiwfby5gmo.mp4",
         endpoint: "mR9GYgobjy1rXuHA7"
     },
     {
