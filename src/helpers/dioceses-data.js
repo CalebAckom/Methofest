@@ -80,7 +80,7 @@ export const dioceses = [
     {
         name: "Somanya",
         id: "14",
-        video: "",
+        video: "toxpksukmy3fn0lnu3is.mp4",
         endpoint: "WEJtDtcYB4zAfcMH8"
     },
     {
@@ -98,7 +98,7 @@ export const dioceses = [
     {
         name: "Ho",
         id: "17",
-        video: "",
+        video: "dh4rd3vyvt6hgrbdsust.mp4",
         endpoint: "5dKY2WBm9L3buWLVA"
     },
     {
