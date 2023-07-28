@@ -2,7 +2,7 @@ export const dioceses = [
     {
         name: "Cape Coast",
         id: "1",
-        video: "",
+        video: "xllp8xhc9ekq5iitaktv.mp4",
         endpoint: "REPpmHht5N46Qnuk7"
     },
     {
@@ -20,7 +20,7 @@ export const dioceses = [
     {
         name: "Sekondi",
         id: "4",
-        video: "",
+        video: "oa0opckhb3muyqykxmre.mp4",
         endpoint: "u4R9iXkZuReBqmob9"
     },
     {
