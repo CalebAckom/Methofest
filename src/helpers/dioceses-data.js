@@ -14,7 +14,7 @@ export const dioceses = [
     {
         name: "Kumasi",
         id: "3",
-        video: "",
+        video: "tqmpe5z9lozpewt08sxl.mp4",
         endpoint: "pdi4teyGWjbpB5br7"
     },
     {
@@ -26,7 +26,7 @@ export const dioceses = [
     {
         name: "Winneba",
         id: "5",
-        video: "",
+        video: "q7myhwj6ku6yrlrlklz4.mp4",
         endpoint: "qfRSzMZ5P8nQCNaYA"
     },
     {
@@ -68,7 +68,7 @@ export const dioceses = [
     {
         name: "Tema",
         id: "12",
-        video: "",
+        video: "busq6qsbphsuffbgu6zg.mp4",
         endpoint: "rL3JKhRhAwwaEw2y6"
     },
     {
@@ -110,7 +110,7 @@ export const dioceses = [
     {
         name: "Wenchi",
         id: "19",
-        video: "",
+        video: "k0he7qdhutrlcgqbtf2a.mp4",
         endpoint: "vPheiChQTLxn7jvA6"
     }
 ]
