@@ -38,31 +38,31 @@ export const dioceses = [
     {
         name: "Sunyani",
         id: "7",
-        video: "",
+        video: "zi4yxdv3ar2x1s4potfb.mp4",
         endpoint: "HXhAWtbtaeoty8RZ8"
     },
     {
         name: "Tarkwa",
         id: "8",
-        video: "",
+        video: "meqlfzb4n18pi8juauyb.mp4",
         endpoint: "bjRge5panij4qBeB8"
     },
     {
         name: "Tamale",
         id: "9",
-        video: "",
+        video: "cluvkhkpdde2kfspgcdt.mp4",
         endpoint: "SgRNExBzeUymmMLt7"
     },
     {
         name: "Effiduase",
         id: "10",
-        video: "",
+        video: "ycggkmyllqo7ivcfirhb.mp4",
         endpoint: "73to2cTQwthj79nF7"
     },
     {
         name: "Obuasi",
         id: "11",
-        video: "",
+        video: "hpqz5hsvjq5m5gvylchx.mp4",
         endpoint: "nwKuebwTEfsEFPq98"
     },
     {
@@ -74,7 +74,7 @@ export const dioceses = [
     {
         name: "Nkawkaw",
         id: "13",
-        video: "",
+        video: "l5albh043fyxvtk9whoj.mp4",
         endpoint: "Bidsq1V216oJGdB76"
     },
     {
@@ -110,7 +110,7 @@ export const dioceses = [
     {
         name: "Wenchi",
         id: "19",
-        video: "k0he7qdhutrlcgqbtf2a.mp4",
+        video: "pwxnnzdkxuleqbasqiyw.mp4",
         endpoint: "vPheiChQTLxn7jvA6"
     }
 ]
