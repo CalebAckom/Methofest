@@ -6,7 +6,7 @@ export const dioceses = [
         endpoint: "REPpmHht5N46Qnuk7"
     },
     {
-        name: "Accra",
+        name: "Accra / N-Accra",
         id: "2",
         video: "dxgqn8j4azbcmvcsndn9.mp4",
         endpoint: "FmfUM3jAq3ASBKVd6"
