@@ -92,7 +92,7 @@ export const dioceses = [
     {
         name: "Goaso",
         id: "16",
-        video: "",
+        video: "r2x91nirxunnn9vxd2yn.mp4",
         endpoint: "NCPEq3LtqUsPC7dy7"
     },
     {
@@ -104,7 +104,7 @@ export const dioceses = [
     {
         name: "Sefwi Bekwai",
         id: "18",
-        video: "",
+        video: "kt9zhft4ue51a5ghx47f.mp4",
         endpoint: "Y8men6HkmQFYDdyf6"
     },
     {
