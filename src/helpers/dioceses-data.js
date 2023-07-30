@@ -72,10 +72,10 @@ export const dioceses = [
         endpoint: "rL3JKhRhAwwaEw2y6"
     },
     {
-        name: "Nkawkaw",
+        name: "Wenchi",
         id: "13",
-        video: "l5albh043fyxvtk9whoj.mp4",
-        endpoint: "Bidsq1V216oJGdB76"
+        video: "pwxnnzdkxuleqbasqiyw.mp4",
+        endpoint: "vPheiChQTLxn7jvA6"
     },
     {
         name: "Somanya",
@@ -84,33 +84,34 @@ export const dioceses = [
         endpoint: "WEJtDtcYB4zAfcMH8"
     },
     {
-        name: "Foso",
-        id: "15",
-        video: "jvo6uoumqktnav86mhxn.mp4",
-        endpoint: "TcxdTCBJ614G7mwM9"
-    },
-    {
-        name: "Goaso",
-        id: "16",
-        video: "r2x91nirxunnn9vxd2yn.mp4",
-        endpoint: "NCPEq3LtqUsPC7dy7"
-    },
-    {
-        name: "Ho",
-        id: "17",
-        video: "dh4rd3vyvt6hgrbdsust.mp4",
-        endpoint: "5dKY2WBm9L3buWLVA"
-    },
-    {
         name: "Sefwi Bekwai",
-        id: "18",
+        id: "15",
         video: "kt9zhft4ue51a5ghx47f.mp4",
         endpoint: "Y8men6HkmQFYDdyf6"
     },
     {
-        name: "Wenchi",
+        name: "Foso",
+        id: "16",
+        video: "jvo6uoumqktnav86mhxn.mp4",
+        endpoint: "TcxdTCBJ614G7mwM9"
+    }
+    ,
+    {
+        name: "Goaso",
+        id: "17",
+        video: "r2x91nirxunnn9vxd2yn.mp4",
+        endpoint: "NCPEq3LtqUsPC7dy7"
+    },
+    {
+        name: "Nkawkaw",
+        id: "18",
+        video: "l5albh043fyxvtk9whoj.mp4",
+        endpoint: "Bidsq1V216oJGdB76"
+    },
+    {
+        name: "Ho",
         id: "19",
-        video: "pwxnnzdkxuleqbasqiyw.mp4",
-        endpoint: "vPheiChQTLxn7jvA6"
+        video: "dh4rd3vyvt6hgrbdsust.mp4",
+        endpoint: "5dKY2WBm9L3buWLVA"
     }
 ]
