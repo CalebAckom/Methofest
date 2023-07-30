@@ -28,7 +28,7 @@ class App extends Component {
                 <section id='scroll'>
                     <h1>Dioceses</h1>
                     <SearchBox
-                        placeholder='Search Dioceses'
+                        placeholder='Search Diocese'
                         handleChange={this.handleChange}
                     />
                     <div className="card-list">
