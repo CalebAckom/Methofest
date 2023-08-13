@@ -18,7 +18,7 @@ const LandingHero = () => {
                 <img src={logo} alt="" style={{ width: 80 }} />
                 <div>
                     <h1 className='landing-title-text'>THE METHODIST CHURCH GHANA</h1>
-                    <h1 className='landing-directions-text'>CONNEXIONAL METHOFEST 2023</h1>
+                    <h1 className='landing-directions-text'>EXPANDED GPC 2023</h1>
                     <h1 className='landing-footer-text'>DIRECTIONS TO AKYEM ODA</h1>
                 </div>
             </div>
@@ -28,7 +28,7 @@ const LandingHero = () => {
                         <img src={mocker} alt="" />
                     </div>
                     <div className='overlay-footer'>
-                        <p>A Digital Directional Guide to Akyem Oda Methodist Cathedral</p>
+                        <p>A Digital Directional Road Guide to Akyem Oda</p>
                         <button onClick={handleScroll}>View Dioceses</button>
                     </div>
                 </div>
