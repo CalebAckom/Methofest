@@ -18,8 +18,8 @@ const LandingHero = () => {
                 <img src={logo} alt="" style={{ width: 80 }} />
                 <div>
                     <h1 className='landing-title-text'>THE METHODIST CHURCH GHANA</h1>
-                    <h1 className='landing-directions-text'>EXPANDED GPC 2023</h1>
-                    <h1 className='landing-footer-text'>DIRECTIONS TO AKYEM ODA</h1>
+                    <h1 className='landing-directions-text'>51ST ANNUAL / 13TH BIENNIAL CONFERENCE</h1>
+                    <h1 className='landing-footer-text'>DIRECTIONS WESLEY CATHEDRAL, KUMASI</h1>
                 </div>
             </div>
             <div className='lower-layer'>
@@ -28,7 +28,7 @@ const LandingHero = () => {
                         <img src={mocker} alt="" />
                     </div>
                     <div className='overlay-footer'>
-                        <p>A Digital Directional Road Guide to Akyem Oda</p>
+                        <p>A Digital Directional Road Guide to the Conference grounds</p>
                         <button onClick={handleScroll}>View Dioceses</button>
                     </div>
                 </div>
